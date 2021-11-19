@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.secondairy.nonethernovember.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "NetherPortalBlockMixin",
+    "EndGatewayBlockEntityMixin",
+    "EndGatewayBlockEntityRendererMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
